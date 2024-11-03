@@ -14,7 +14,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:80") // 프론트엔드 주소
+                        .allowedOrigins("http://localhost") // 프론트엔드 주소
                         .allowedMethods("*");
             }
         };
