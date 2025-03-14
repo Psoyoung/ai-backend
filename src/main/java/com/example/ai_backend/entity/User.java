@@ -2,7 +2,6 @@
 package com.example.ai_backend.entity;
 
 import jakarta.persistence.*;
-import lombok.Data;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @Entity
